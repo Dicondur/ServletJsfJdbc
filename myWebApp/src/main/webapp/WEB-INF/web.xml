@@ -1,0 +1,22 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name> ProductsController</servlet-name>
+  	<display-name> ProductsController</display-name>
+  	<description>Products Controller</description>
+  	<servlet-class>com.dinesh.web.ProductsController</servlet-class>
+  	<init-param>
+  		<param-name>name</param-name>
+  		<param-value>GoogleHome</param-value>
+  		<description></description>
+  	</init-param>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name> ProductsController</servlet-name>
+  	<url-pattern>/Products</url-pattern>
+  </servlet-mapping>
+</web-app>
